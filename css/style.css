@@ -12,13 +12,12 @@ body {
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+}
 nav ul {
     list-style-type: none;
     display: flex;
-
-    padding: 0;
-    display: flex;
-    justify-content: space-between; */
 }
 
 header .wrapper{
@@ -31,3 +30,38 @@ ul li {
     text-transform: uppercase;
     font-size: 1.75em;
 }
+
+.sweetheart-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2);
+    grid-template-areas: 
+    "div1 div1 div1" 
+    "div2 div3 div4";
+    gap: 3rem;
+}
+
+.sweetheart-images img:nth-child(1) {
+    grid-area: div1;
+    border-radius: 2%;
+}
+
+.sweetheart-images img:nth-child(2) {
+    grid-area: div2;
+    border-radius: 2%;
+}
+
+.sweetheart-images img:nth-child(3) {
+    grid-area: div3;
+    border-radius: 2%;
+}
+
+.sweetheart-images img:nth-child(4) {
+    grid-area: div4;
+    border-radius: 2%;
+}
+
+h1 {
+    font-size: 2.027rem;
+}
+
