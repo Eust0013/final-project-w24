@@ -36,7 +36,7 @@ ul li {
 .sweetheart-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2);
+    grid-template-rows: repeat(2, auto);
     grid-template-areas: 
     "div1 div1 div1" 
     "div2 div3 div4";
@@ -108,14 +108,20 @@ h2 {
 }
 
 .product-grid img {
-    border-radius: 20px;
+    border-radius: 10px 10px 0px 0px;
 }
 
+.dough-images {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    align-items: center;
+}
 
 
 footer {
     background-color: black;
     color: white;
-    font-size: ;
     height: 50px;
 }
