@@ -74,17 +74,37 @@ h1 {
 .btn {
     margin-top: auto;
     background-color: black;
+    display: inline-block;
     padding: 5px;
     color: white;
     border-radius: 4px;
     font-weight: 500;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .grey {
     background-color: #f8fafc;
+    padding: 1em 2em;
 }
 
 h2 {
     text-align: center;
     font-size: 1.802rem;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+.dough-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dough-images img {
+    border-radius: 20px;
 }
