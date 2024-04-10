@@ -10,6 +10,7 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 img {
@@ -100,11 +101,21 @@ h2 {
     padding: 1em 2em;
 }
 
-.dough-images {
+.product-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 3rem;
 }
 
-.dough-images img {
+.product-grid img {
     border-radius: 20px;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: ;
+    height: 50px;
 }
