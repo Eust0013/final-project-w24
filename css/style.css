@@ -11,6 +11,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 
+
 }
 
 img {
@@ -119,9 +120,19 @@ h2 {
     align-items: center;
 }
 
+.names {
+    font-weight: bold;
+    font-size: 1.266rem;
+}
+
+.price {
+    font-size: 1.266rem;
+}
+
 
 footer {
     background-color: black;
     color: white;
     height: 50px;
+    text-align: center;
 }
