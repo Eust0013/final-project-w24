@@ -138,10 +138,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-    body {
-        background-color: blueviolet;
-    }
-
     .sweetheart-images {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -168,4 +164,14 @@ footer {
     body {
         background-color: blue;
     }
+
+   .product-grid {
+    gap: 2em;
+   }
+
+   .section1 {
+    display: flex;
+    align-content: center;
+   }
+ 
 }
