@@ -136,3 +136,36 @@ footer {
     height: 50px;
     text-align: center;
 }
+
+@media (min-width: 768px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .sweetheart-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "div1 div2" "div3 div4";
+        gap: 2rem;
+    }
+
+    .behind {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .quotes {
+        display: flex;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color: blue;
+    }
+}
